@@ -1,0 +1,16 @@
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\bin\Debug\net5.0\SimpleGrading.exe
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\bin\Debug\net5.0\SimpleGrading.deps.json
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\bin\Debug\net5.0\SimpleGrading.runtimeconfig.json
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\bin\Debug\net5.0\SimpleGrading.runtimeconfig.dev.json
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\bin\Debug\net5.0\SimpleGrading.dll
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\bin\Debug\net5.0\ref\SimpleGrading.dll
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\bin\Debug\net5.0\SimpleGrading.pdb
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\obj\Debug\net5.0\SimpleGrading.csprojAssemblyReference.cache
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\obj\Debug\net5.0\SimpleGrading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\obj\Debug\net5.0\SimpleGrading.AssemblyInfoInputs.cache
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\obj\Debug\net5.0\SimpleGrading.AssemblyInfo.cs
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\obj\Debug\net5.0\SimpleGrading.csproj.CoreCompileInputs.cache
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\obj\Debug\net5.0\SimpleGrading.dll
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\obj\Debug\net5.0\ref\SimpleGrading.dll
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\obj\Debug\net5.0\SimpleGrading.pdb
+C:\Users\User-Ryzen\Desktop\GitC#\SimpleGrading\SimpleGrading\obj\Debug\net5.0\SimpleGrading.genruntimeconfig.cache
