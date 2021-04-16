@@ -6,8 +6,8 @@ namespace SimpleGrading
     {
         static void Main(string[] args)
         {
-            GradingWithIfElseBlock();
-            GradingMinusIfElseBlock();
+            // GradingWithIfElseBlock();
+            // GradingMinusIfElseBlock();
             GradingMinusIfElseBlockWithValidation();
         }
         public static void GradingWithIfElseBlock()
@@ -120,17 +120,19 @@ namespace SimpleGrading
             int scoreTotal = 0;
             int testScore = 0;
             int averageScore = 0;
-            int classSizeRatio = 0;
+            uint classSizeRatio = 0; // uint prevents negative numbers from being entered
 
 
             Console.Write("Enter class size: ");
-            while (!int.TryParse(Console.ReadLine(), out classSizeRatio))
+            while (!uint.TryParse(Console.ReadLine(), out classSizeRatio))
             {
                 Console.WriteLine("Please enter a valid number");
                 Console.Write("Enter class size: ");
+
             }
-            int classSize = classSizeRatio;
+            int classSize = (int)classSizeRatio;
             classSizeRatio *= 100;
+
             Console.WriteLine($"Max points possible {classSizeRatio}");
 
             while (testScore != classSizeRatio && counter != classSize)
