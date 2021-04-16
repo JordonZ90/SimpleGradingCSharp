@@ -6,8 +6,8 @@ namespace SimpleGrading
     {
         static void Main(string[] args)
         {
-            GradingWithIfElseBlock();
-            GradingMinusIfElseBlock();
+            // GradingWithIfElseBlock();
+            // GradingMinusIfElseBlock();
             GradingMinusIfElseBlockWithIntValidation();
         }
         public static void GradingWithIfElseBlock()
@@ -128,11 +128,11 @@ namespace SimpleGrading
                 Console.WriteLine("Please enter a valid number");
                 Console.Write("Enter class size: ");
             }
-
+            int classSize = classSizeRatio;
             classSizeRatio *= 100;
-            Console.WriteLine($"while test_score != {classSizeRatio}");
+            Console.WriteLine($"Max points possible {classSizeRatio}");
 
-            while (testScore != classSizeRatio)
+            while (testScore != classSizeRatio && counter != classSize)
             {
 
                 Console.Write("Enter test score ");
