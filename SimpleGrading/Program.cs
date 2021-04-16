@@ -6,8 +6,8 @@ namespace SimpleGrading
     {
         static void Main(string[] args)
         {
-            // GradingWithIfElseBlock();
-            // GradingMinusIfElseBlock();
+            GradingWithIfElseBlock();
+            GradingMinusIfElseBlock();
             GradingMinusIfElseBlockWithValidation();
         }
         public static void GradingWithIfElseBlock()
