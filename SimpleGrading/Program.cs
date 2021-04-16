@@ -8,7 +8,7 @@ namespace SimpleGrading
         {
             // GradingWithIfElseBlock();
             // GradingMinusIfElseBlock();
-            GradingMinusIfElseBlockWithIntValidation();
+            GradingMinusIfElseBlockWithValidation();
         }
         public static void GradingWithIfElseBlock()
         {
@@ -112,8 +112,9 @@ namespace SimpleGrading
                 averageScore = scoreTotal / counter;
                 Console.WriteLine($"Total score: {scoreTotal} \nAverage score: {averageScore} \nGrade: {gradeLetter}");
             }
-        } // while (!int.TryParse(Console.ReadLine(), out classSizeRatio))
-        public static void GradingMinusIfElseBlockWithIntValidation()
+        } 
+
+        public static void GradingMinusIfElseBlockWithValidation()
         {
             int counter = 0;
             int scoreTotal = 0;
@@ -135,15 +136,17 @@ namespace SimpleGrading
             while (testScore != classSizeRatio && counter != classSize)
             {
 
-                Console.Write("Enter test score ");
-                testScore = int.Parse(Console.ReadLine());
-
+                Console.Write("Enter test score: ");
+                if (!int.TryParse(Console.ReadLine(), out testScore))
+                {
+                    Console.WriteLine("Please enter a valid number");
+                    continue;
+                }
                 string gradeLetter = (testScore >= 90) ? "A" :
                 (testScore >= 80) ? "B" :
                 (testScore >= 70) ? "C" :
                 (testScore >= 60) ? "D" :
                 "E";
-
 
                 if (testScore >= 0 && testScore <= 100)
                 {
